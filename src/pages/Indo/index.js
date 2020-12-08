@@ -21,10 +21,12 @@ const Indo = () => {
     
     return (
         <div>
+            <center>
+            <h1> Jumlah kasus di dunia </h1>
             <h1 className= "header-container" > Positif: {perawatan}</h1>
             <h1 className= "card-container" > Meninggal: {meninggal}</h1>
             <h1 className= "last-container" > Sembuh: {sembuh}</h1>
-            
+           </center>
         </div>
 
     );

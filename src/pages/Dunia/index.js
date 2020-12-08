@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios"
-
+import axios from "axios";
 
 const Dunia = () => {
     const [recovered, setRecovered] = useState([]);
@@ -21,10 +20,12 @@ const Dunia = () => {
     
     return (
         <div>
+            <center>
+            <h1> Jumlah kasus di dunia </h1>
             <h1 className= "header-container" > Positif: {confirmed}</h1>
             <h1 className= "card-container" > Meninggal: {deaths}</h1>
             <h1 className= "last-container" > Sembuh: {recovered}</h1>
-            
+            </center>
         </div>
 
     );
