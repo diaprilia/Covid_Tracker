@@ -21,10 +21,12 @@ const Dunia = () => {
     return (
         <div>
             <center>
-            <h1> Jumlah kasus di dunia </h1>
-            <h1 className= "header-container" > Positif: {confirmed}</h1>
-            <h1 className= "card-container" > Meninggal: {deaths}</h1>
-            <h1 className= "last-container" > Sembuh: {recovered}</h1>
+            <h1> <font size= '5'>Covid-19 Cases Worldwide</font></h1>
+            <p></p>
+            <p></p>
+            <h1 className= "header-container" > Confirmed: {confirmed}</h1>
+            <h1 className= "card-container" > Deaths: {deaths}</h1>
+            <h1 className= "last-container" > Recovered: {recovered}</h1>
             </center>
         </div>
 

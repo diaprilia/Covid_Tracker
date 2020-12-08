@@ -4,29 +4,32 @@ import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 import { Dunia, Indo, Prov } from './pages'
 
 
+
 const App = () =>{
     return (
         <Router>
             <div>
-                <nav>
+                <nav>   
+                    <h1><font size= '5'>  Covid-19 Tracker Site</font></h1>
                     <ul>
                         <li>
                             <Link to="/dunia">
-                                Dunia
+                                Worldwide
                             </Link>
                         </li>
                         <li>
                             <Link to="/indo">
-                                Indo
+                                Indonesia
                             </Link>
                         </li>
                         <li>
                             <Link to="/prov">
-                                Prov
+                                Indonesian Province
                             </Link>
                         </li>
                     </ul>
                 </nav>
+
             </div>
             <Switch>
                 <Route path="/indo">
