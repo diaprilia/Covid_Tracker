@@ -21,7 +21,7 @@ const Dunia = () => {
     return (
         <div>
             <center>
-            <h1> <font size= '5'>Covid-19 Cases Worldwide</font></h1>
+            <h1> <font size= '5'>Covid-19 Cases in Worldwide</font></h1>
             <p></p>
             <p></p>
             <h1 className= "header-container" > Confirmed: {confirmed}</h1>

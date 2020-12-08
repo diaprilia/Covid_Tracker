@@ -1,6 +1,8 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+
+
 import React, {useEffect, useState } from 'react';
 import axios from "axios"
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Table } from "react-bootstrap";
 
 
@@ -68,13 +70,13 @@ const Prov = () => {
                                   )
                                     }
 
-    </tbody>
+              </tbody>
 
-  </Table>
+                   </Table>
 
-  </center>
+                         </center>
 
-  );
-        }   
+          );
+                }   
 
 export default Prov;
